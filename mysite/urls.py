@@ -31,5 +31,4 @@ admin_site.register(TOTPDevice)
 
 urlpatterns = [
     path('admin/', admin_site.urls),
-    path('dadmin/', admin.site.urls),
 ]
